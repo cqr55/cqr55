@@ -1,0 +1,295 @@
+Roadmap para Completar LIBFT con Éxito!
+
+* **Inicio:** 12 de junio de 2026 (hoy)
+* **Fecha límite:** 23 de junio de 2026
+* **Esfuerzo total:** 70 horas
+* **19 junio:** evaluación de pares + ajustes + proyecto listo para superar evaluación (>60%)
+* **20 junio:** evaluación de pares + ajustes + proyecto listo para superar evaluación (>80%)
+* **21 junio:** exclusivamente ajustes y evaluaciones y defensa (mínimo 3 * 100%)
+* Si sigues este plan, llegarás al **20 de junio con el proyecto completo funcional**,
+* y tendrás **3 días enteros de margen para evaluaciones, correcciones y defensa**.
+* Incluye **todos los archivos requeridos**, incluyendo `Makefile`, `libft.h` y `README.md`. 
+
+---
+
+# Plan detallado por archivo
+
+## Día 1 — 12 junio (8h)
+
+### Infraestructura (2h)
+
+| Archivo  | Horas |
+| -------- | ----: |
+| Makefile |   1.0 |
+| libft.h  |   1.0 |
+
+### Funciones simples libc (6h)
+
+| Archivo      | Horas |
+| ------------ | ----: |
+| ft_isalpha.c |   0.3 |
+| ft_isdigit.c |   0.3 |
+| ft_isalnum.c |   0.3 |
+| ft_isascii.c |   0.2 |
+| ft_isprint.c |   0.2 |
+| ft_toupper.c |   0.2 |
+| ft_tolower.c |   0.2 |
+| ft_strlen.c  |   0.4 |
+| ft_bzero.c   |   0.5 |
+| ft_memset.c  |   0.5 |
+| ft_memcpy.c  |   0.8 |
+| ft_memmove.c |   1.1 |
+
+---
+
+## Día 2 — 13 junio (8h)
+
+### Strings y memoria (8h)
+
+| Archivo      | Horas |
+| ------------ | ----: |
+| ft_strlcpy.c |   1.0 |
+| ft_strlcat.c |   1.2 |
+| ft_strchr.c  |   0.7 |
+| ft_strrchr.c |   0.8 |
+| ft_strncmp.c |   0.8 |
+| ft_memchr.c  |   0.8 |
+| ft_memcmp.c  |   0.8 |
+| ft_strnstr.c |   1.4 |
+| ft_atoi.c    |   0.5 |
+
+---
+
+## Día 3 — 14 junio (8h)
+
+### Malloc functions (4h)
+
+| Archivo       | Horas |
+| ------------- | ----: |
+| ft_calloc.c   |   1.5 |
+| ft_strdup.c   |   1.0 |
+| tests básicos |   1.5 |
+
+### Parte 1 completa
+
+Al final del día deberías tener:
+
+```text
+✓ Parte 1 terminada
+✓ Compila sin errores
+✓ Norma OK
+✓ Sin leaks
+```
+
+---
+
+## Día 4 — 15 junio (8h)
+
+### Parte 2 (bloque fácil)
+
+| Archivo       | Horas |
+| ------------- | ----: |
+| ft_substr.c   |   1.8 |
+| ft_strjoin.c  |   1.5 |
+| ft_strtrim.c  |   2.0 |
+| ft_strmapi.c  |   1.0 |
+| ft_striteri.c |   0.7 |
+| Testing       |   1.0 |
+
+---
+
+## Día 5 — 16 junio (8h)
+
+### Parte 2 (bloque complejo)
+
+| Archivo                | Horas |
+| ---------------------- | ----: |
+| ft_split.c             |   4.0 |
+| ft_itoa.c              |   2.0 |
+| Gestión errores malloc |   1.0 |
+| Testing                |   1.0 |
+
+---
+
+## Día 6 — 17 junio (8h)
+
+### Funciones FD
+
+| Archivo         | Horas |
+| --------------- | ----: |
+| ft_putchar_fd.c |   0.3 |
+| ft_putstr_fd.c  |   0.5 |
+| ft_putendl_fd.c |   0.5 |
+| ft_putnbr_fd.c  |   1.2 |
+
+### Linked Lists (inicio)
+
+| Archivo           | Horas |
+| ----------------- | ----: |
+| ft_lstnew.c       |   1.0 |
+| ft_lstadd_front.c |   0.7 |
+| ft_lstsize.c      |   0.7 |
+| ft_lstlast.c      |   0.8 |
+| ft_lstadd_back.c  |   1.3 |
+| Testing           |   1.0 |
+
+---
+
+## Día 7 — 18 junio (8h)
+
+### Linked Lists (final)
+
+| Archivo         | Horas |
+| --------------- | ----: |
+| ft_lstdelone.c  |   1.0 |
+| ft_lstclear.c   |   1.5 |
+| ft_lstiter.c    |   1.0 |
+| ft_lstmap.c     |   2.0 |
+| Testing         |   0.5 |
+
+### Entrega final
+
+| Actividad             | Horas |
+| --------------------- | ----: |
+| README.md             |   1.0 |
+| Revisión repositorio  |   1.0 |
+
+---
+
+# Dia 8 - 19 junio (8h)
+
+Debes evaluar a un compi antes de programar la corrección!
+
+Deberías tener:
+
+```text
+✓ Todas las funciones compilando
+✓ Makefile OK
+✓ Header OK
+✓ Parte 1 completa
+✓ Parte 2 completa
+✓ Parte 3 completas
+✓ Sin segfault
+✓ Sin leaks graves
+✓ 1 punto extra por una evaluación realizada
+```
+
+### Stress testing
+
+* INT_MIN en ft_itoa
+* malloc failures / edge cases
+* null protection
+* split con delimitadores consecutivos
+* strtrim vacío
+* memmove overlap
+* atoi límites
+
+| Actividad                   | Horas |
+| --------------------------- | ----: |
+| Stress testing y ajustes    |   4.0 |
+| 1a. Peer Review             |   1.5 |
+| Ajustes Post-Peer Review    |   1.0 |
+| 1a. Defensa                 |   1.0 |
+
+
+Nivel esperado:
+
+```text
+60-80%
+```
+
+---
+
+# Dia 9 - 20 junio (8h)
+
+### Peer evaluations
+
+Preparar explicación oral de:
+
+```text
+ft_split
+ft_strtrim
+ft_memmove
+ft_strnstr
+ft_lstmap
+```
+
+| Actividad                    | Horas |
+| ---------------------------- | ----: |
+| 2a. Peer Review              |   1.5 |
+| Ajustes y Prep Defensa       |     4 |
+| Todas las "Nettes" (N+F+M)   |     1 |
+| 2a. Defensa                  |   1.5 |
+
+Objetivo:
+
+```text
+80-90%
+```
+
+---
+
+# Dia 10 - 21 junio (8h)
+
+| Actividad                    | Horas |
+| ---------------------------- | ----: |
+| Ajustes y Prep Defensa       |     1 |
+| Todas las "Nettes" (N+F+M)   |     1 |
+| 3a. Defensa (100%)           |     2 |
+| 4a. Defensa (100%)           |     2 |
+| 5a. Defensa (100%)           |     2 |
+
+Objetivo:
+
+```text
+3 x 100%
+```
+
+---
+
+# Distribución de esfuerzo por complejidad
+
+### Muy fáciles (<0.5h)
+
+* ft_isalpha
+* ft_isdigit
+* ft_isalnum
+* ft_isascii
+* ft_isprint
+* ft_toupper
+* ft_tolower
+* ft_putchar_fd
+
+### Medias (0.5–1.5h)
+
+* ft_strlen
+* ft_memset
+* ft_bzero
+* ft_strdup
+* ft_strchr
+* ft_strrchr
+* ft_strncmp
+* ft_memchr
+* ft_memcmp
+* ft_putstr_fd
+* ft_putendl_fd
+* ft_lstnew
+* ft_lstsize
+* ft_lstlast
+
+### Difíciles (1.5–2h)
+
+* ft_substr
+* ft_strtrim
+* ft_itoa
+* ft_putnbr_fd
+* ft_lstclear
+* ft_lstmap
+* ft_calloc
+
+### Críticas (2h+)
+
+* ft_memmove
+* ft_strlcat
+* ft_strnstr
+* ft_split
