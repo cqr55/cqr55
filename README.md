@@ -20,10 +20,10 @@ In indigenous Amazonian traditions, the *Panthera Onza* is one of the most power
 
 
 
-## What I'm Exploring
+## What I'm Currently Exploring
 
 
-🤖 AI-Enabled & AI-Native Organizations · ⚖️ AI Governance & Ethics · 🔁 Next-Gen Digital Transformation · 🖥️ Systems Programming
+🤖 AI-Enabled & AI-Native Organizations · ⚖️ AI Governance & Ethics · 🔁 Next-Gen Digital Transformation
 
 
 
