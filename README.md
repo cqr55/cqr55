@@ -2,6 +2,7 @@
 > Learning. Building. Evolving.
 
 
+
 Most people know me as a Program & Portfolio Manager. For more than a decade, I have led global digital transformation initiatives, managed multimillion-euro portfolios, and helped organizations navigate complexity across sectors like Oil & Gas, Energy, Cash Logistics, Private Security, and Strategy & Management Consulting.
 
 Those who know me closely know I am someone in constant personal transformation. A curious Virgo, guided both by intuition and reason. That combination keeps pulling me deeper — into new technologies, new paradigms, new ways of thinking about processes, systems and their governance, and how all of them can be shaped to genuinely serve people.
@@ -22,13 +23,7 @@ In indigenous Amazonian traditions, the *Panthera Onza* is one of the most power
 ## What I'm Exploring
 
 
-🤖 AI-Enabled & AI-Native Organizations
-
-⚖️ AI Governance & Ethics
-
-🔁 Next-Gen Digital Transformation
-
-🖥️ Systems Programming
+🤖 AI-Enabled & AI-Native Organizations · ⚖️ AI Governance & Ethics · 🔁 Next-Gen Digital Transformation · 🖥️ Systems Programming
 
 
 
