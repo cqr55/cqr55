@@ -6,7 +6,7 @@ Most people know me as a Program & Portfolio Manager. For more than a decade, I 
 
 Those who know me closely know I am someone in constant personal transformation. A curious Virgo, guided both by intuition and reason. That combination keeps pulling me deeper — into new technologies, new paradigms, new ways of thinking about processes, systems and their governance, and how all of them can be shaped to genuinely serve people.
 
-This GitHub is my current run in the tech world — the one where I stop reading the patch notes and actually learn the game engine.
+This GitHub is my current run in the tech world. Now I am actually learning the game engine, instead of reading the patch notes.
 
 
 
